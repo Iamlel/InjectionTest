@@ -1,0 +1,9 @@
+name: InjectionTest
+version: '${project.version}'
+main: me.lel.injectiontest.InjectionTest
+api-version: 1.20
+load: STARTUP
+commands:
+  playtime:
+    description: Get the total or session time a player has played on the server.
+    usage: /Playtime <total/session> [<player>]
